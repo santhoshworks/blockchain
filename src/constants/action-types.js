@@ -1,3 +1,5 @@
 export const APP_LOAD = 'APP_LOAD';
+export const LOAD_BLOCKS = 'LOAD_BLOCKS';
+export const UPDATE_SELECTEDBLOCK = 'UPDATE_SELECTEDBLOCK';
 
-export default { APP_LOAD };
+export default { APP_LOAD, LOAD_BLOCKS, UPDATE_SELECTEDBLOCK };

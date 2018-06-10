@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
 
-type Props = {
-  children: any
-}
 
-const Layout = (props: Props) =>
-  <div>{props.children}</div>;
-
+const Layout = (props) => (
+  <div>
+    <Header />
+    <div>{props.children}</div>
+    <Footer />
+  </div>
+);
 export default Layout;

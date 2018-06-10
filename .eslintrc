@@ -15,7 +15,7 @@
   },
   "env": {
     "mocha": true,
-    "browser": true,
+    "browser": true
   },
   "settings": {
     "import/resolver": "webpack"
