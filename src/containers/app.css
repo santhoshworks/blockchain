@@ -1,3 +1,6 @@
 .container {
-  /*App container styles belongs here*/
+  margin: 20px;
+}
+.container .h1 {
+  font-size: 18px;
 }

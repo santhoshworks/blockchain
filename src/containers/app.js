@@ -60,9 +60,7 @@ export class AppContainer extends Component {
 
     return (
       <div className={styles.container} >
-        <header>
-          <h1>BlockChain Transactions</h1>
-        </header>
+        <h1>Chain Blocks</h1>
         <div className={'blocks'}>
           {this.displayTransactions()}
         </div>
