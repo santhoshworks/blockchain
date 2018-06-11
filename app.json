@@ -6,8 +6,6 @@
     "react",
     "express"
   ],
-  "website": "https://wereinhq.com/guides/react",
-  "repository": "https://github.com/werein/react",
   "success_url": "/",
   "env": {
     "PORT": {
