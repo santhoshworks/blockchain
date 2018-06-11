@@ -1,3 +1,32 @@
 .layout {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important
 }
+table>tbody>tr:nth-child(odd) {
+    background-color: rgba(242,242,242,0.9);
+}
+
+.layout td,.layout th {
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding: 15px 10px;
+    border-radius: 2px;
+}
+
+.layout th {
+    text-transform: capitalize;
+}
+
+.layout button {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #e53935;
+    text-align: center;
+    border-radius: 14px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
